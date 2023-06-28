@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    -webkit-user-select: none;
+    /* Chrome, Safari, Opera */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    /* transition: 0.5s ease-in-out; */
+    box-sizing: border-box;
+}
+
+.view-alert {
+    /* display: none; */
+    z-index: 1;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    background-color: white;
+    opacity: 100%;
+}
+
+.view-alert .col-11 h6 {
+    font-family: "Inter";
+    text-align: center;
+    font-size: 12px;
+    color: #989898;
+    margin-top: -10px;
+}
+
+.view-alert .col-11 i {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    color: #4e992b;
+}
+
+.view-alert .col-11 p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter";
+}
+
+.view-alert .col-1 button {
+    border: none;
+    width: 25px;
+    height: 25px;
+    background-color: #4e992b;
+    color: white;
+    border-radius: 8px;
+}
+
+.base {
+    background-color: #22242b;
+    min-height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    width: 393px;
+    background-color: #16171B;
+    padding: 35px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 94px;
+}
+
+.desc {
+    margin: 20px 0;
+}
+
+.desc p {
+    color: #AEAEAE;
+    text-align: justify;
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 15px;
+    background: #202125;
+    height: 73px;
+    width: 296px;
+    margin: 10px 0;
+}
+
+.card:hover {
+    cursor: pointer;
+    background: #252629;
+}
+
+.card .col-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* border: #fff solid; */
+}
+
+.card .col-9 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+}
+
+.card .col-3 i {
+    color: #B7FF95;
+    font-size: 28px;
+}
+
+.card .col-9 {
+    color: #FFF;
+    text-align: left;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: capitalize;
+}
